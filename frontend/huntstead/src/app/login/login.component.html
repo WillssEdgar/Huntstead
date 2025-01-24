@@ -1,4 +1,4 @@
-<div class="bg-slate-100 container w-3/4 flex flex-col items-center justify-center h-screen">
+<div class="bg-slate-100 container w-screen flex flex-col items-center justify-center h-screen">
   <div class="flex flex-col items-center w-full">
     <h1 class="mb-4 text-2xl">Login</h1>
     <form class="w-1/2">
@@ -38,6 +38,7 @@
           class="text-blue-700 bg-slate-100 hover:bg-slate-200 focus:ring-4 focus:outline-none
           focus:ring-blue-300 font-medium rounded-lg text-sm w-1/2
           px-5 py-2.5 text-center cursor-pointer border border-blue-500"
+          (click)="handleSignUp()"
         >
           Sign Up
         </button>
